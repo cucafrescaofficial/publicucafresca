@@ -1,0 +1,10 @@
+[package]
+name = "acbr-rust"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+acbr_lib = { path = "./acbr_lib/" }
+tokio = { version = "1", features = ["full"] }
+futures = "0.3.31"
+uuid = { version = "1.18.1", features = ["v4"]}

@@ -1,0 +1,13 @@
+{
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "type": "cppvsdbg",
+            "request": "launch",
+            "name": "Debug Test",
+            "preLaunchTask": "build:debug",
+            "program": "${workspaceRoot}/target/i686-pc-windows-msvc/debug/acbr-rust.exe",
+            "cwd": "${workspaceRoot}",
+        },
+    ]
+}

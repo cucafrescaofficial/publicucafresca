@@ -1,0 +1,6 @@
+{
+    "rust-analyzer.cargo.target": "i686-pc-windows-msvc",
+    "lldb.script": {
+        "lang.rust.toolchain": "stable-x86_64-pc-windows-gnu"
+    }
+}
